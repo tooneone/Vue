@@ -1,0 +1,113 @@
+{
+  "tableData": [{
+    "date": "2016-05-02",
+    "name": "王小虎1",
+    "address": "上海市普陀区金沙江路 1518 弄"
+  }, {
+    "date": "2016-05-04",
+    "name": "王小虎2",
+    "address": "上海市普陀区金沙江路 1517 弄"
+  }, {
+    "date": "2016-05-01",
+    "name": "王小虎3",
+    "address": "上海市普陀区金沙江路 1519 弄"
+  }, {
+    "date": "2016-05-03",
+    "name": "王小虎4",
+    "address": "上海市普陀区金沙江路 1516 弄"
+  }],
+  "menuData": [{
+      "menuId": "1",
+      "icon": "icon-homepage",
+      "path": "DSP",
+      "url": "DSP/dsp-management",
+      "menuName": "DSP管理",
+      "seq": 2
+    },
+    {
+      "menuId": "2",
+      "path": "report",
+      "menuName": "报表管理",
+      "url": "report/report-management",
+      "icon": "icon-brush",
+      "seq": 4
+    },
+    {
+      "menuId": "3",
+      "path": "material",
+      "menuName": "素材管理",
+      "url": "material/material-management",
+      "icon": "icon-transaction_fill",
+      "seq": 3
+    },
+    {
+      "menuId": "4",
+      "path": "account",
+      "menuName": "账号管理",
+      "url": "account/account-management",
+      "icon": "icon-tasklist",
+      "seq": 1,
+      "operarte": [{
+          "menuName": "创建用户",
+          "name": "add",
+          "type": "2",
+          "path": "new-account",
+          "url": "account/new-account"
+        },
+        {
+          "name": "edit",
+          "type": "1"
+        }
+      ]
+    }
+  ],
+  "adoptions": [{
+      "value": "计划1",
+      "label": "第一个"
+    },
+    {
+      "value": "计划2",
+      "label": "第二个"
+    },
+    {
+      "value": "计划3",
+      "label": "第三个"
+    },
+    {
+      "value": "计划4",
+      "label": "第四个"
+    },
+    {
+      "value": "计划5",
+      "label": "第五个"
+    }
+  ],
+  "addimension": [{
+      "value": "PC端",
+      "label": "PC端"
+    },
+    {
+      "value": "移动端",
+      "label": "移动端"
+    },
+    {
+      "value": "域名",
+      "label": "域名"
+    }
+
+
+  ],
+  "accountData":[
+    {
+      "date": "代一",
+      "name": "admin",
+      "province": "10000",
+      "city": "启动",
+      "address": "2017-12-29",
+      "zip": 200333
+    }],
+  "saveAccount":[
+    {
+      "success":"创建成功"
+    }]
+}
